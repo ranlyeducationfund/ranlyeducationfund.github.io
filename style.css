@@ -1,7 +1,7 @@
 .header {
     padding: 80px; /* some padding */
     text-align: center; /* center the text */
-    background: #1abc9c; /* green background */
+    background: #1B5583;
     color: white; /* white text color */
   }
   
@@ -19,7 +19,7 @@
   /* Style the navigation bar links */
   .navbar a {
     float: left; /* Make sure that the links stay side-by-side */
-    display: block; /* Change the display to block, for responsive reasons (see below) */
+    display: block; /* Change the display to block, for responsive reasons */
     color: white; /* White text color */
     text-align: center; /* Center the text */
     padding: 14px 20px; /* Add some padding */
@@ -50,14 +50,14 @@
   /* Create two unequal columns that sits next to each other */
   /* Sidebar/left column */
   .side {
-    flex: 30%; /* Set the width of the sidebar */
+    flex: 20%; /* Set the width of the sidebar */
     background-color: #f1f1f1; /* Grey background color */
     padding: 20px; /* Some padding */
   }
   
   /* Main column */
   .main {
-    flex: 70%; /* Set the width of the main content */
+    flex: 80%; /* Set the width of the main content */
     background-color: white; /* White background color */
     padding: 20px; /* Some padding */
   }
