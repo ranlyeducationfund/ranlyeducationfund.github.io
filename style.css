@@ -1,8 +1,3 @@
-* {
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-
 .header {
     padding: 70x; /* some padding */
     text-align: center; /* center the text */
@@ -40,6 +35,11 @@
 .navbar a:hover {
     background-color: #ddd; /* Grey background color */
     color: black; /* Black text color */
+  }
+
+  * {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   /* Column container */
