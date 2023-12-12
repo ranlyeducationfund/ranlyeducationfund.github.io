@@ -1,5 +1,5 @@
 .header {
-    padding: 80px; /* some padding */
+    padding: 50px; /* some padding */
     text-align: center; /* center the text */
     background: #1B5583;
     color: #ddd; /* white text color */
@@ -108,7 +108,12 @@
     color: #717171;
     font-size: 11px;
     font-weight: normal;
+    text-align: center;
     margin: 0;
+  }
+
+  .photo-details h3 {
+    font-weight: 600;
   }
 
   /* Responsive layout - makes a two column-layout instead of four columns */
